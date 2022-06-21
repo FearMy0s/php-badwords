@@ -14,8 +14,8 @@
 </head>
 <body>
     <span><?= $text; ?></span>
-    <span>Lunghezza =  <?= strlen($text); ?></span>
+    <h1>Lunghezza =  <?= strlen($text); ?></h1>
     <span><?= $censorText; ?></span>
-    <span>Lunghezza censura =  <?= strlen($censorText); ?></span>
+    <h1>Lunghezza censura =  <?= strlen($censorText); ?></h1>
 </body>
 </html>
