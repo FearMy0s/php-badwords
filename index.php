@@ -1,7 +1,7 @@
 <?php
     $text = 'gigino gigetto che vola sul tetto, porco pio e morto gigino';
-    $censorWord = $_GET['censorWord'];
-    $censorText = str_replace($censorWord, '*****', $text);
+    $censorWord = $_GET['porco'];
+    $censorText = str_replace($censorWord , '*****', $text);
 ?>
 
 <!DOCTYPE html>
