@@ -1,6 +1,6 @@
 <?php
     $text = 'gigino gigetto che vola sul tetto, porco pio e morto gigino';
-    $censorWord = $_GET['porco'];
+    $censorWord = $_GET['censorWord'];
     $censorText = str_replace($censorWord , '*****', $text);
 ?>
 
